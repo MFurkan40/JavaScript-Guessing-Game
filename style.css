@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  background-color: #82498d;
+}
+
+.secret-number {
+  font-size: 2rem;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 250px;
+}
+
+.secret-number,
+.guess-input,
+.btn {
+  font-size: 1.6rem;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.info {
+  display: none;
+  height: 0;
+}
+
+.shut-down {
+  position: absolute;
+  right: 2;
+  top: 0;
+}
